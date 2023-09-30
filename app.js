@@ -30,8 +30,8 @@ ScrollReveal({
 });
 
 
-ScrollReveal().reveal('#img', {origin:'top' ,delay:250 });
-ScrollReveal().reveal('.h1', {origin:'right' ,delay:190 });
+ScrollReveal().reveal('#img', {origin:'left' ,delay:250 });
+ScrollReveal().reveal('.h1', {origin:'bottom' ,delay:190 });
 ScrollReveal().reveal('.h2', {origin:'left' ,delay:190 });
 ScrollReveal().reveal('.h3', {origin:'bottom' ,delay:190 });
-ScrollReveal().reveal('.p', {origin:'right' ,delay:190 });
+ScrollReveal().reveal('.p', {origin:'top' ,delay:190 });
