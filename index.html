@@ -61,6 +61,8 @@ color: rgb(255, 196, 0);
          color: white;
          cursor: pointer;
          transition: all ease 0.6s;
+         border-top-right-radius: 10px;
+         border-bottom-left-radius: 10px;
       }
   #btn:hover{
         background-color: rgb(255, 174, 0);
@@ -69,6 +71,10 @@ color: rgb(255, 196, 0);
 padding-left: 7%;
 text-align: center;
 transform: rotate(20deg);
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 0px;
+         border-bottom-left-radius: 0px;
         }
         #img {
             
@@ -105,6 +111,9 @@ transform: rotate(20deg);
             #img{
                 width:300px;
             }
+            #play{
+              display: none;
+            }
         }
         #play{
     padding: 9.2vw 1.6vw;
@@ -128,6 +137,23 @@ flex-direction: column-reverse;
         display: flex;
         justify-content: center;
         padding-bottom: 20%;
+    }
+    .h1{
+font-size: 9.9vw;      
+    }
+    
+    .h2{
+font-size: 12.9vw;      
+    }
+    .h3{
+      font-size: 9vw;      
+    }
+    .auto-type{
+      font-size: 10.7vw;      
+
+    }
+    .p{
+      font-size: 4.7vw;      
     }
   }
     </style>
@@ -180,7 +206,7 @@ flex-direction: column-reverse;
         <h1 class="h1">Hello It's Me</h1>
         <h2 class="h2">Madiha</h2>
         <h3 class="h3">And I Am a <span class="auto-type"></span></h3>
-        <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis earum cupiditate commodi.</p>
+        <p style="color: black; font-weight: 890;" class="p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis earum cupiditate commodi .</p>
      <div class="btn11">   <button id="btn">Download CV</button></div>
     </div>
     <div class="right">
@@ -188,7 +214,7 @@ flex-direction: column-reverse;
     </div>
 </div>
 
-
+<br><br>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script>
